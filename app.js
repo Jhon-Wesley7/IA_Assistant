@@ -45,8 +45,8 @@ btn.addEventListener('click', () => {
 });
 
 function takeCommand(message) {
-    if(message.includes('hey') || message.includes('hello')) {
-        speak("Hello Sir, How May I Help You?");
+    if(message.includes('olá') || message.includes('hey') || message.includes('hello')) {
+        speak("Olá, seja bem vindo, me chamo Lequisi, infelizmente minha voz ainda é de homem, ainda estou tentando dar um jeito nisso, mas me conta, tá tudo bem com você? como poderia te ajudar?");
     } else if (message.includes("open google")) {
         window.open("https://www.google.com", "_blank");
         speak("Abrindo o Google");
