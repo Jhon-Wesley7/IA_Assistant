@@ -63,6 +63,9 @@ function takeCommand(message) {
     } else if (message.includes("playboyzinho")) {
         window.open("https://www.instagram.com/jhonwesley.dev/")
         speak("Bem vindo playboyzinho");
+    } else if (message.includes("fechar")) {
+        speak("Até logo mestre Jhon")
+        window.close("file:///C:/Users/jwbf2/Documents/GitHub/IA_Assistant/index.html");
     } else if (message.includes("oi lexi me chamo nara")) {
         speak("olá Nara, o meu criador Jhon Wesley fala muito bem de você, não precisa ter ciumes de mim, sou apenas uma inteligencia artificial");
     } else if (message.includes("abrir google")) {
